@@ -48,6 +48,7 @@ class BirdSoundTableViewCell: UITableViewCell {
       playbackButton.setImage(newImage, for: .normal)
       if isPlaying, let url = playbackURL {
         startPlaying(with: url)
+        AppStoreReviewManager.requestReviewIfAppropriate()
       } else {
         stopPlaying()
       }

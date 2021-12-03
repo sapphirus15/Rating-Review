@@ -47,10 +47,32 @@ final class SettingsViewController: UITableViewController {
   private let productURL = URL(string: "https://itunes.apple.com/app/id958625272")!
 
   private func writeReview() {
+    // 1.
+    var components = URLComponents(url: productURL, resolvingAgainstBaseURL: false)
+
+    // 2.
+    components?.queryItems = [
+      URLQueryItem(name: "action", value: "write-review")
+    ]
+
+    // 3.
+    guard let writeReviewURL = components?.url else {
+      return
+    }
+
+    // 4.
+    UIApplication.shared.open(writeReviewURL)
 
   }
 
   private func share() {
+    // 1.
+    let activityViewController = UIActivityViewController(
+      activityItems: [productURL],
+      applicationActivities: nil)
+
+    // 2.
+    present(activityViewController, animated: true, completion: nil)
 
   }
 }

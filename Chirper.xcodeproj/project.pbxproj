@@ -19,6 +19,7 @@
 		95A57C67204D60B300C87951 /* Recording.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A57C66204D60B300C87951 /* Recording.swift */; };
 		95A57C6A204D66AF00C87951 /* ServiceResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A57C69204D66AF00C87951 /* ServiceResponse.swift */; };
 		95A57C6E204E599500C87951 /* RecordingsResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A57C6D204E599500C87951 /* RecordingsResult.swift */; };
+		BF1E3E342759F97B00C98BF6 /* AppStoreReviewManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1E3E332759F97B00C98BF6 /* AppStoreReviewManager.swift */; };
 		D2A5F2211F4A96D0005CD714 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A5F2201F4A96D0005CD714 /* AppDelegate.swift */; };
 /* End PBXBuildFile section */
 
@@ -35,6 +36,7 @@
 		95A57C66204D60B300C87951 /* Recording.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recording.swift; sourceTree = "<group>"; };
 		95A57C69204D66AF00C87951 /* ServiceResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceResponse.swift; sourceTree = "<group>"; };
 		95A57C6D204E599500C87951 /* RecordingsResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordingsResult.swift; sourceTree = "<group>"; };
+		BF1E3E332759F97B00C98BF6 /* AppStoreReviewManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStoreReviewManager.swift; sourceTree = "<group>"; };
 		D2A5F2001F4A9144005CD714 /* Chirper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chirper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2A5F20F1F4A9144005CD714 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D2A5F2201F4A96D0005CD714 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -114,6 +116,7 @@
 				953535E8204D02F500287CA6 /* MainViewController.swift */,
 				53801A3F2184AB52004CB084 /* SettingsViewController.swift */,
 				953535EC204D28C500287CA6 /* BirdSoundTableViewCell.swift */,
+				BF1E3E332759F97B00C98BF6 /* AppStoreReviewManager.swift */,
 				53801A3C2184A30F004CB084 /* Service */,
 				53801A412184AC83004CB084 /* Utilities */,
 				53801A312184A275004CB084 /* Resources */,
@@ -203,6 +206,7 @@
 				953535E9204D02F500287CA6 /* MainViewController.swift in Sources */,
 				D2A5F2211F4A96D0005CD714 /* AppDelegate.swift in Sources */,
 				95A57C67204D60B300C87951 /* Recording.swift in Sources */,
+				BF1E3E342759F97B00C98BF6 /* AppStoreReviewManager.swift in Sources */,
 				53801A402184AB52004CB084 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -345,10 +349,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				DEVELOPMENT_TEAM = "";
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = KTLS7WWU5V;
 				INFOPLIST_FILE = Chirper/SupportingFiles/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.razeware.Chirper;
+				PRODUCT_BUNDLE_IDENTIFIER = com.abludens.review;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
@@ -361,10 +366,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				DEVELOPMENT_TEAM = "";
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = KTLS7WWU5V;
 				INFOPLIST_FILE = Chirper/SupportingFiles/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.razeware.Chirper;
+				PRODUCT_BUNDLE_IDENTIFIER = com.abludens.review;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = 1;
